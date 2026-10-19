@@ -1,0 +1,42 @@
+{
+  "name": "@kne/fastify-im-trtc",
+  "version": "0.1.0",
+  "description": "把 fastify-im 的通话请求接到 fastify-trtc，签发进房参数",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js",
+    "prettier": "prettier --config .prettierrc --write '{libs/**/*,index,test/**/*}.{js,jsx,ts,tsx,json,css,scss}'"
+  },
+  "files": [
+    "index.js",
+    "libs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kne-union/fastify-im-trtc.git"
+  },
+  "keywords": [
+    "fastify",
+    "im",
+    "trtc",
+    "call"
+  ],
+  "author": "linzp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kne-union/fastify-im-trtc/issues"
+  },
+  "homepage": "https://github.com/kne-union/fastify-im-trtc#readme",
+  "peerDependencies": {
+    "@kne/fastify-namespace": "*",
+    "@kne/fastify-trtc": "*",
+    "fastify-plugin": ">=5"
+  },
+  "devDependencies": {
+    "@kne/fastify-namespace": "^1.2.1",
+    "chai": "^6.2.2",
+    "fastify": "^5.4.0",
+    "fastify-plugin": "^5.0.1",
+    "mocha": "^11.7.5"
+  }
+}
