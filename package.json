@@ -1,6 +1,6 @@
 {
   "name": "@kne/fastify-im-trtc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "把 fastify-im 的通话请求接到 fastify-trtc，签发进房参数",
   "main": "index.js",
   "scripts": {
